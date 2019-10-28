@@ -29,11 +29,7 @@ void mousePressed()
 }
 class Bacteria    
 {
-  int startx;
-  int starty;
-  int endx;
-  int endy;
-  int bColor;
+  int startx, starty, endx, endy, bColor;
 	Bacteria()
   {
     startx=(int)(Math.random()*(width+1));
